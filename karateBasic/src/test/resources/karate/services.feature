@@ -30,7 +30,7 @@ Feature: consult users successful
     Given path '/api/users/' + <number>
     When method get
     Then status 200
-    * print response 
+    * print response
 
     Examples:
       | number |
